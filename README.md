@@ -4,7 +4,7 @@
 
 ## Usage Instructions
 
-- Copy `Luna.exe` from `bin` folder to your desired location.
+- Copy `Luna.exe` from the `bin` folder to your desired location.
 - Run `Luna.exe`.
 - Luna will automatically detect the system theme and start the icon animation.
 - Left-click the icon to toggle Awake/Asleep.
@@ -12,4 +12,3 @@
 
 ## Author
 Arun Mathew
-2025-11-24
