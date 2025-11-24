@@ -1,0 +1,48 @@
+/**
+ * @file Luna.rc
+ * @brief Resource Script for Luna.
+ * @author Antigravity
+ * @date 2025-11-22
+ * 
+ * Compiles into the executable to provide icon resources.
+ * Expects a "Cat_ico" subdirectory containing the icon files.
+ * 
+ * Compilation: rc.exe Luna.rc
+ */
+
+#include "resource.h"
+#include <windows.h>
+
+// Application Manifest
+1 RT_MANIFEST "Luna.manifest"
+
+// --- Light Mode Icons ---
+
+
+// Awake
+IDI_LIGHT_AWAKE_0   ICON "Cat_ico\\light_cat_0.ico"
+IDI_LIGHT_AWAKE_1   ICON "Cat_ico\\light_cat_1.ico"
+IDI_LIGHT_AWAKE_2   ICON "Cat_ico\\light_cat_2.ico"
+IDI_LIGHT_AWAKE_3   ICON "Cat_ico\\light_cat_3.ico"
+IDI_LIGHT_AWAKE_4   ICON "Cat_ico\\light_cat_4.ico"
+
+// Sleep
+IDI_LIGHT_SLEEP_0   ICON "Cat_ico\\light_cat_sleep_0.ico"
+IDI_LIGHT_SLEEP_1   ICON "Cat_ico\\light_cat_sleep_1.ico"
+IDI_LIGHT_SLEEP_2   ICON "Cat_ico\\light_cat_sleep_2.ico"
+IDI_LIGHT_SLEEP_3   ICON "Cat_ico\\light_cat_sleep_3.ico"
+
+// --- Dark Mode Icons ---
+
+// Awake
+IDI_DARK_AWAKE_0    ICON "Cat_ico\\dark_cat_0.ico"
+IDI_DARK_AWAKE_1    ICON "Cat_ico\\dark_cat_1.ico"
+IDI_DARK_AWAKE_2    ICON "Cat_ico\\dark_cat_2.ico"
+IDI_DARK_AWAKE_3    ICON "Cat_ico\\dark_cat_3.ico"
+IDI_DARK_AWAKE_4    ICON "Cat_ico\\dark_cat_4.ico"
+
+// Asleep
+IDI_DARK_SLEEP_0    ICON "Cat_ico\\dark_cat_sleep_0.ico"
+IDI_DARK_SLEEP_1    ICON "Cat_ico\\dark_cat_sleep_1.ico"
+IDI_DARK_SLEEP_2    ICON "Cat_ico\\dark_cat_sleep_2.ico"
+IDI_DARK_SLEEP_3    ICON "Cat_ico\\dark_cat_sleep_3.ico"
